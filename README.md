@@ -90,7 +90,9 @@ knn_assignment/
   * One-hot encoded labels  
   * 3 hidden layers (512, 256, 128 units) with ReLU  
   * 50 epochs training  
-* **Result**: **55% accuracy** (Ranked #5 on leaderboard)  
+* **Result**: **55% accuracy** (Ranked #5 on leaderboard)
+
+<img width="1014" height="352" alt="image" src="https://github.com/user-attachments/assets/e0f72c2a-29be-4905-8e9e-a93d2b53b0c1" />
 
 ---
 
@@ -106,7 +108,9 @@ knn_assignment/
   * Allowed: Dropout, BatchNorm, Data Augmentation  
 * **Performance**:
   * **81% test accuracy**  
-  * Ranked #2 on competition leaderboard  
+  * Ranked #2 on competition leaderboard
+  * 
+<img width="1030" height="284" alt="image" src="https://github.com/user-attachments/assets/f74373d3-99c3-4b64-b926-43e1ccedd9e2" />
 
 ---
 
@@ -190,7 +194,9 @@ resnet_project/
   ```
 * **Performance**:
   - End-to-end accuracy: 94%  
-  - Processing speed: 12 FPS (1080p)  
+  - Processing speed: 12 FPS (1080p)
+  
+<img width="1012" height="290" alt="image" src="https://github.com/user-attachments/assets/332ec677-e60c-4f29-8914-2b80da951a6e" />
 
 📂 Structure:
 ```
@@ -229,19 +235,18 @@ pip install tensorflow torch torchvision ultralytics
 
 ## 📊 Performance Summary
 
-| Project | Model Type | Accuracy | Leaderboard |
-|---------|------------|----------|-------------|
-| 1 | Heuristic | 86.27% | - |
-| 2 | KNN | 31% | - |
-| 3 | SVM (scratch) | 15% | - |
-| 4 | SGDClassifier | 85% | - |
-| 5 | FFNN | 55% | #5 |
-| 6 | Custom CNN | 81% | #2 |
-| 7 | ResNet | 89% | - |
-| 8 | Transfer Learning | 96% | #3 |
-| 9 | YOLOv8 | 92% P | - |
-| 10 | Pipeline | 94% | - |
-
+| Project | Model Type | Accuracy |
+|---------|------------|----------|
+| 1 | Heuristic | 86.27% |
+| 2 | KNN | 31% |
+| 3 | SVM (scratch) | 15% |
+| 4 | SGDClassifier | 85% |
+| 5 | FFNN | 55% |
+| 6 | Custom CNN | 81% |
+| 7 | ResNet | 89% |
+| 8 | Transfer Learning | 96% |
+| 9 | YOLOv8 | 92% P |
+| 10 | Pipeline | 94% |
 ---
 
 ## 👩‍💻 Author
